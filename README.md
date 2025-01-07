@@ -1,3 +1,13 @@
+# deploy to sepolia
+myTokenProxy deployed to: 0x2b97e2EDE53C9733b9806536d149B142973088b6
+
+
+Both need to verify on etherscan
+v2:
+0x844b2d768b3e0f99da3e7215b5c44b86a109ea07
+v1:
+0x7454e47774523971e6d0901ed69c38de48eaabf2
+
 # set up env
 
 `yarn hardhat vars set ALCHEMY_API_KEY "YOUR_TOKEN_HERE"`
@@ -5,11 +15,9 @@
 
 `npx hardhat vars list`
 
-deploy contract
-```shell
-npx hardhat ignition deploy ./ignition/modules/<contractName>.ts --network <network>
-```
 
+deploy & upgrade contract
+```shell
 run scripts
 ```shell
 npx hardhat run ./scripts/<scriptName>.ts --network <network>
