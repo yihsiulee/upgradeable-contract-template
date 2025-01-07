@@ -1,3 +1,7 @@
+# proxy docs:
+https://docs.openzeppelin.com/upgrades-plugins/hardhat-upgrades
+using transparent proxy 
+
 # deploy to sepolia
 myTokenProxy deployed to: 0x2b97e2EDE53C9733b9806536d149B142973088b6
 
